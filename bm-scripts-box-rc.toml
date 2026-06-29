@@ -1,0 +1,18 @@
+[bmscriptsbox]
+
+[bmscriptsbox.info]
+id = "e1a2b3c4-d5e6-7890-abcd-ef1234567890"
+name = "PinTop"
+desc = "Windows窗口置顶工具 - 快捷键一键置顶/取消置顶任意应用窗口，置顶窗口顶部显示红色📌图标，支持多窗口同时置顶，快捷键可自定义，AutoHotkey轻量脚本"
+version = "1.0.0"
+icon = "./imgs/top.png"
+
+[bmscriptsbox.runtime]
+language = "autohotkey"
+language_version = ">=2.0.0"
+entry = "main.ahk"
+terminal = "never"
+
+[bmscriptsbox.triggers.shortcut]
+enabled = true
+input_type = ""
